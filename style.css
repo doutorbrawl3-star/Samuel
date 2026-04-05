@@ -1,30 +1,39 @@
 body {
-    background-color: #f0f2f5; /* Um cinza clarinho para não cansar o olho */
+    background-color: #f0f2f5;
     font-family: 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
+    margin: 0;
 }
 
 h1 {
-    color: #e91e63; /* Um tom de rosa/vermelho para o tema "romântico" */
-    font-size: 64px;
-}
-
-img {
-    border-radius: 15px;      /* Bordas arredondadas ficam mais modernas */
-    border: 5px solid white;  /* Uma bordinha de foto polaroid */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para dar profundidade */
-   
-    margin-top: 20px;
+    color: #e91e63;
+    font-size: 45px; /* Tamanho grande mas que não corta na tela */
+    margin-top: 30px;
 }
 
 p {
     background: white;
-    padding: 35px;
-    border-radius: 10px;
-    line-height: 1.6;        /* Dá mais espaço entre as linhas do texto */
+    padding: 30px;
+    border-radius: 20px;
+    line-height: 1.8;
     font-weight: bold;
+    font-size: 30px; /* Letras do texto bem grandes */
+    width: 85%;      /* Ocupa quase toda a largura do celular */
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 90%;      /* A imagem vai crescer conforme o tamanho do celular */
+    max-width: 400px; /* Mas não vai passar de 400px para não estourar */
+    height: auto;    /* Mantém a proporção correta */
+    border-radius: 20px;
+    border: 8px solid white;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
