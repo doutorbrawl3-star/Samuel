@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f2f5; /* Um cinza clarinho para não cansar o olho */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #e91e63; /* Um tom de rosa/vermelho para o tema "romântico" */
+    font-size: 24px;
+}
+
+img {
+    border-radius: 15px;      /* Bordas arredondadas ficam mais modernas */
+    border: 5px solid white;  /* Uma bordinha de foto polaroid */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para dar profundidade */
+    object-fit: cover;        /* Não deixa a foto esticar se você mudar o tamanho */
+    margin-top: 20px;
+}
+
+p {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;        /* Dá mais espaço entre as linhas do texto */
+    font-weight: bold;
+  }
