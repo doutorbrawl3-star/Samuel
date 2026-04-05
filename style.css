@@ -10,20 +10,20 @@ body {
 
 h1 {
     color: #e91e63; /* Um tom de rosa/vermelho para o tema "romântico" */
-    font-size: 34px;
+    font-size: 64px;
 }
 
 img {
     border-radius: 15px;      /* Bordas arredondadas ficam mais modernas */
     border: 5px solid white;  /* Uma bordinha de foto polaroid */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para dar profundidade */
-    object-fit: cover;        /* Não deixa a foto esticar se você mudar o tamanho */
+   
     margin-top: 20px;
 }
 
 p {
     background: white;
-    padding: 15px;
+    padding: 35px;
     border-radius: 10px;
     line-height: 1.6;        /* Dá mais espaço entre as linhas do texto */
     font-weight: bold;
