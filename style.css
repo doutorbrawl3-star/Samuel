@@ -1,49 +1,30 @@
 body {
-    background-color: #f0f2f5; 
+    background-color: #f0f2f5; /* Um cinza clarinho para não cansar o olho */
     font-family: 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px; /* Reduzi o padding para não empurrar tudo muito para baixo no celular */
-    margin: 0;
-    min-height: 100vh;
+    padding: 50px;
 }
 
 h1 {
-    color: #e91e63; 
-    font-size: 10px;      /* Título bem grande e chamativo */
-    font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    max-width: 90%;       /* Garante que o texto não quebre estranho no celular */
+    color: #e91e63; /* Um tom de rosa/vermelho para o tema "romântico" */
+    font-size: 24px;
+}
+
+img {
+    border-radius: 15px;      /* Bordas arredondadas ficam mais modernas */
+    border: 5px solid white;  /* Uma bordinha de foto polaroid */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para dar profundidade */
+    object-fit: cover;        /* Não deixa a foto esticar se você mudar o tamanho */
+    margin-top: 20px;
 }
 
 p {
     background: white;
-    padding: 25px;        /* Mais espaço interno no bloco branco */
-    border-radius: 20px;  /* Bordas mais arredondadas */
-    line-height: 1.8;     /* Espaçamento maior entre as linhas do texto */
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;        /* Dá mais espaço entre as linhas do texto */
     font-weight: bold;
-    font-size: 64px;      /* Texto das qualidades bem grande igual ao print */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    width: 80%;           /* Faz o bloco branco ocupar mais largura */
-    max-width: 350px;
-}
-
-img {
-    width: 300px;         /* Aumentei para a foto não ficar pequena */
-    height: 300px;        /* Mantém o quadrado perfeito */
-    border-radius: 20px;  
-    border: 8px solid white; 
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
-    object-fit: cover;    
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-/* Efeito de brilho quando clicar/passar o mouse */
-img:active {
-    transform: scale(0.95);
-    transition: 0.2s;
 }
